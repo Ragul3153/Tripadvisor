@@ -88,16 +88,127 @@ body{
     cursor: pointer;
 }
 
+.where{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
 
+.search{
+    display:grid;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
 
+.search-1{
+    display: flex;
+    gap: 75px;
+}
 
+.search-2{
+    display: flex;
+    justify-content: center;
+}
 
+.search-2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 270px;  
+    top: 80px; 
+}
 
+.search-2 input{
+    width:800px;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
 
+.search-2 button{
+    height: 45px;
+    font-size: medium;
+    padding: 10px;
+    background-color: rgb(20, 218, 158);
+    border-radius:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    position: absolute;
+    right: 260px; 
+    top: 72px;   
+}
 
+.search-2 button:hover{
+    cursor: pointer;
+}
 
+.first img{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 455px;
+    margin-top: 60px;
+}
 
+.box{
+    border: 1px solid transparent;
+    width: 450px;
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+    display: grid;
+}
 
+.box-1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.box-1 p{
+    color: white;
+}
+
+.box-3 h1{
+    color: white;
+    
+}
+
+.box-4 h2{
+    color: white;
+}
+
+.box-2 p{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.box-5{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: azure;
+    width: 80px;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-5 img{
+    width: 20px;
+    height: 20px;
+}
+
+.box-5:hover{
+    background-color: rgb(197, 158, 235);
+    cursor: pointer;
+}
 
 
 
