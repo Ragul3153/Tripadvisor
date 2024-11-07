@@ -190,6 +190,7 @@ body{
 
 .box-5{
     display: flex;
+    gap: 5px;
     align-items: center;
     border: 1px solid transparent;
     background-color: azure;
@@ -209,6 +210,111 @@ body{
     background-color: rgb(197, 158, 235);
     cursor: pointer;
 }
+
+.treat{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 3px;
+}
+
+.treat h2{
+    margin-bottom: 5px;
+}
+
+.treat p{
+    margin-top: 8px;
+}
+
+.total {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.total img{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.food1 h2{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    color: black 
+}
+
+.food2 h2{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-style: bolder;
+}
+
+.food3 h2{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-style: bolder;
+}
+
+.food4 h2{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-style: bolder;
+}
+
+.travel{
+    margin-left: 100px;
+}
+
+.travel h2{
+    margin-bottom: 5px;
+}
+
+.travel p{
+    margin-top: 8px;
+}
+
+.creators{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.creators-1 img{
+    width: 365px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.creators-2 img{    
+    width: 365px;
+    height: 250px;
+    border-radius: 10px
+}
+
+.creators-3 img{
+    width: 365px;
+    height: 250px;
+    border-radius: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
