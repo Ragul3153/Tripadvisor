@@ -1,46 +1,71 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif
 }
 
 .navbar{
     display: flex;
-    justify-content: center;
-    position: relative;
-    left: 20px;
-    font-size: smaller;
-    margin-left: 50px;
-    height: 50px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+.navbar-1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navbar-1 h1:hover{
+    cursor: pointer;
 }
 
 .navbar-1 img{
     width: 40px;
-    margin-top: 0px;
-    position: relative;
-    right: 380px;
+    height: 40px;
 }
 
-.navbar-1 h1{
-    position: relative;
-    bottom: 55px;
-    right: 340px;
-}
-
-.navbar-2 {
+.navbar-2{
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    gap: 30px;
     font-weight: bolder;
+}
+
+.navbar-2 p{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar-2 p:hover{
+    background-color: rgb(240, 236, 236);
+    cursor: pointer;
 }
 
 .navbar-3{
     display: flex;
-    justify-content: center;
-    width: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
 .navbar-3 img{
     width: 20px;
+    height: 20px;
+}
 
+.navbar-3 button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: transparent;
+}
+
+.navbar-3 button:hover{
+    background-color: gray;
+    cursor: pointer;
+    
 }
