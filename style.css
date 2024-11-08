@@ -283,7 +283,8 @@ body{
     margin-right: 100px;
     margin-left: 100px;
     gap: 20px;
-}
+    justify-content: center;
+}   
 
 .creators-1 img{
     width: 365px;
@@ -303,22 +304,104 @@ body{
     border-radius: 10px
 }
 
+.creators img{
+   
+}
 
+.creatorsc-1 img{ 
+    width: 365px;
+    height: 250px;
+    border-radius: 10px;
+}
 
+.creatorsc-2 img{
+    width: 365px;
+    height: 250px;
+    border-radius: 10px;
+}
 
+.creatorsc-3 img{
+    width: 365px;
+    height: 250px;
+    border-radius: 10px;
+}
 
+.experience{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+.experience h2 {
+    margin-bottom: 5px;
+}
 
+.experience p {
+    margin-top: 8px;
+}
 
+.sector{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
 
+.sector img {
+    width: 275px;
+    height: 270px;
+    border-radius: 10px;
+}
 
+.newsel{
+    display: flex;
+    /* gap: 5px; */
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
+.seller{
+    margin-bottom: 15px;
+}
 
+.aaaa p{
+    border: 1px solid black;
+    font-size: smaller;
+    font-weight: bolder;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.aaaa1{
+    width: 245px;
+}
 
+.bbbb{
+    margin-left: 45px;
+    width: 250px;
+}
 
+.bbbb1{
+    margin-left: 45px;
+}
 
+.cccc{
+    width: 250px;
+    margin-left: 45px;
+}
 
+.cccc1{
+    margin-left: 45px;
+}
+
+.dddd{
+    width: 250px;
+    margin-left: 40px;
+}
+
+.dddd1{
+    margin-left: 40px;
+}
 
 
 
