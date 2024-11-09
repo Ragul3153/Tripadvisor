@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    flex-wrap: wrap;
 }
 
 .navbar{
@@ -108,15 +109,20 @@ body{
 }
 
 .lll:hover{
-    /* text-decoration: underline; */
-    border-bottom: 2px solid;
+    visibility: visible;
 }
     
 .lll{
+    border-bottom: 2px solid;
+    visibility: hidden;
+}
+
+.qqq{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
+    visibility: visible;
 }
 
 .search-2{
@@ -139,6 +145,8 @@ body{
     padding: 20px;
     border-radius: 40px;
     padding-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: transparent;
 }
 
 .search-2 button{
@@ -146,13 +154,13 @@ body{
     font-size: medium;
     padding: 10px;
     background-color: rgb(20, 218, 158);
+    border: transparent;
     border-radius:30px;
     padding-left: 20px;
     padding-right: 20px;
-    border: none;
     position: absolute;
     right: 10px; 
-    top: 7px;   
+    top: 5px;   
 }
 
 .search-2 button:hover{
@@ -344,6 +352,12 @@ body{
     width: 365px;
     height: 250px;
     border-radius: 10px;
+
+}
+
+.creators-1 img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
 }
 
 .creators-2 img{    
@@ -352,12 +366,21 @@ body{
     border-radius: 10px
 }
 
+.creators-2 img:hover{
+    transform: rotateY(360deg);
+    transition: 5s;
+}
+
 .creators-3 img{
     width: 365px;
     height: 250px;
     border-radius: 10px;
 }
 
+.creators-3 img:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
 
 .arrow-1 i{
     border: 1px solid black;
@@ -848,3 +871,115 @@ body{
 .output:hover{
     cursor: pointer;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width:800px){
+    
+    .navbar-2{
+        display: none;
+    }
+
+    .where{
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    
+    .navbar{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .navbar-3{
+        display: none;
+    }
+
+    .where{
+        text-align: center;
+    }
+
+    /* .search-1{
+        display: grid;
+        gap: 10px;
+    } */
+
+    /* .search-2{
+        width: 200px;
+    } */
+
+    .box{
+        flex-basis: 2;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
