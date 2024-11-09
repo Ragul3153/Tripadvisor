@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -98,22 +103,27 @@ body{
     justify-content: center;
     font-size: 25px;
     font-weight: bolder;
+    padding-top: 50px;
 }
 
 .search{
     display:grid;
     justify-content: center;
     gap: 15px;
-    position: relative;
+    padding-top: 50px;
+    /* position: relative; */
 }
 
 .search-1{
     display: flex;
     gap: 50px;
+    /* width: 100%; */
+    justify-content: center;
 }
 
 .lll:hover{
     visibility: visible;
+    cursor: pointer;
 }
     
 .lll{
@@ -127,6 +137,7 @@ body{
     align-items: center;
     gap: 5px;
     visibility: visible;
+    margin-bottom:5px;
 }
 
 .search-2{
@@ -163,7 +174,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     position: absolute;
-    right: 10px; 
+    right: 5px; 
     top: 5px;   
 }
 
@@ -172,12 +183,18 @@ body{
     cursor: pointer;
 }
 
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 .first img{
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
     height: 455px;
     margin-top: 60px;
-    position: relative;
+    /* position: relative; */
 }
 
 .box{
@@ -187,6 +204,7 @@ body{
     top: 500px;
     left: 250px;
     display: grid;
+    gap: 10px;
 }
 
 .box-1{
@@ -197,19 +215,19 @@ body{
 
 .box-1 p{
     color: white;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
 }
 
 .box-3 h1{
     color: white;
-    margin-bottom: 2px;
-    margin-top: 3px;
+    /* margin-bottom: 2px; */
+    /* margin-top: 3px; */
     
 }
 
 .box-4 h2{
     color: white;
-    margin-top: 2px;
+    /* margin-top: 2px; */
 }
 
 .box-2 p{
@@ -229,8 +247,9 @@ body{
     width: 80px;
     justify-content: center;
     border-radius: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
 
 .box-5 img{
@@ -244,8 +263,10 @@ body{
 }
 
 .treat{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 100px; 
+    /* margin-right: 100px;  */
+    display: grid;
+    
     margin-top: 100px;
 }
 
@@ -260,23 +281,27 @@ body{
 .total {
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 10px;
     display: flex;
     gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .total img{
-    width: 270px;
+    width: 261px;
     height: 270px;
     border-radius: 10px;
 }
 
-.food1 h2{
+.food1 h2,.food2 h2,.food3 h2,.food4 h2{
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
     left: 20px;
-    color: black 
+    color: white;
+    font-weight: 900;
 }
-
+/* 
 .food2 h2{
     position: relative;
     bottom: 70px;
@@ -296,7 +321,7 @@ body{
     bottom: 70px;
     left: 20px;
     font-style: bolder;
-}
+} */
 
 .arrow i{
     border: 1px solid black;
@@ -305,7 +330,7 @@ body{
     border-radius: 40px;
     position: relative;
     top: 100px;
-    right: 40px;
+    right: 10px;
 }
 
 .fa-arrow-right:hover{
@@ -894,6 +919,7 @@ body{
 
 @media screen and (max-width:600px) {
 
+    
     .menubar{
         display: block;
     }    
