@@ -104,13 +104,26 @@ body{
 
 .search-1{
     display: flex;
-    gap: 75px;
+    gap: 50px;
+}
+
+.lll:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid;
+}
+    
+.lll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .search-2{
     display: flex;
     justify-content: center;
     position: relative;
+    top: 10px;
 }
 
 .search-2 img{
@@ -143,6 +156,7 @@ body{
 }
 
 .search-2 button:hover{
+    background-color: rgb(100, 247, 247);
     cursor: pointer;
 }
 
@@ -158,7 +172,7 @@ body{
     border: 1px solid transparent;
     width: 450px;
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 250px;
     display: grid;
 }
@@ -171,15 +185,19 @@ body{
 
 .box-1 p{
     color: white;
+    margin-bottom: 2px;
 }
 
 .box-3 h1{
     color: white;
+    margin-bottom: 2px;
+    margin-top: 3px;
     
 }
 
 .box-4 h2{
     color: white;
+    margin-top: 2px;
 }
 
 .box-2 p{
@@ -268,6 +286,22 @@ body{
     font-style: bolder;
 }
 
+.arrow i{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+    right: 40px;
+}
+
+.fa-arrow-right:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 .travel{
     margin-left: 100px;
 }
@@ -282,7 +316,7 @@ body{
 
 .creators{
     display: flex;
-    margin-right: 100px;
+    margin-right: 65px;
     margin-left: 100px;
     gap: 20px;
     justify-content: center;
@@ -297,6 +331,12 @@ body{
 }
 
 .creators-3 p{
+    text-align: center;
+}
+
+.fa-heart{
+    color: red;
+    width: 100%;
     text-align: center;
 }
 
@@ -315,25 +355,19 @@ body{
 .creators-3 img{
     width: 365px;
     height: 250px;
-    border-radius: 10px
-}
-
-.creatorsc-1 img{ 
-    width: 365px;
-    height: 250px;
     border-radius: 10px;
 }
 
-.creatorsc-2 img{
-    width: 365px;
-    height: 250px;
-    border-radius: 10px;
-}
 
-.creatorsc-3 img{
-    width: 365px;
-    height: 250px;
-    border-radius: 10px;
+.arrow-1 i{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    top: 220px;
+    right: 40px;
+    
 }
 
 .experience{
@@ -353,13 +387,23 @@ body{
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    justify-content: space-between;
+    gap: 15px;
 }
 
 .sector img {
     width: 275px;
     height: 270px;
     border-radius: 10px;
+}
+
+.arrow-2 i{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    top: 110px;
+    right: 30px;
 }
 
 .newsel{
@@ -440,6 +484,17 @@ body{
     border-radius: 10px;
 }
 
+.arrow-3 i{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    left: 1230px;
+    bottom: 80px;
+
+}
+
 .comments{
     display: flex;
     justify-content: space-between;
@@ -447,6 +502,8 @@ body{
     gap: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    position: relative;
+    bottom: 20px;
 }
 
 .comments-1{
@@ -513,6 +570,16 @@ body{
     color: white;
 }
 
+.arrow-4 i{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    left: 1230px;
+    bottom: 230px;
+}
+
 .bike{
     margin-left: 100px;
     margin-right: 100px;
@@ -543,12 +610,12 @@ body{
     align-items: center;
     gap: 10px;
     height: 40px;
-    
 }
 
 .abcd img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
 .watch-1 h1{
@@ -577,6 +644,13 @@ body{
     position: relative;
     left: 90px;
     border: transparent;
+    width: 150px;
+}
+
+.but button:hover{
+    background-color: rgb(71, 71, 71);
+    border: transparent;
+    cursor: pointer;
 }
     
 .last{
@@ -632,6 +706,12 @@ body{
     border: transparent;
 }
 
+.ffff-4 button:hover{
+    background-color: rgb(71, 71, 71);
+    border: transparent;
+    cursor: pointer;
+}
+
 .footer{
     margin-top: 100px;
     width: 100%;
@@ -647,6 +727,25 @@ body{
     position: relative;
     top: 40px;
     font-size: 15px;
+}
+
+.lc-1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lc-2 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lc-3 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lc-3 h3{
+    font-weight: lighter;
 }
 
 .sites p{
@@ -665,6 +764,8 @@ body{
     height: 40px;
     position: relative;
     left: 100px;
+    border: 1px white;
+    border-radius: 40%;
 }
 
 .one-1{
@@ -678,12 +779,17 @@ body{
     gap: 15px;
     bottom: 20px;
     font-size: 15px;
+    text-decoration: underline;
 }
 
 .how{
     position: relative;
     right: 520px;
     top: 25px;
+}
+
+.iiii p:hover{
+    cursor: pointer;
 }
 
 .cont{
@@ -706,9 +812,9 @@ body{
 
 .jjjj{
     position: relative;
-    bottom: 18px;
+    bottom: 15px;
     right: 40px;
-    font-size: 15px;
+    font-size: 13px;
     width: 800px;
 }
 
@@ -725,6 +831,11 @@ body{
     height: 20px;
 }
 
+.two-1 input:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+
 .output img{
     width: 30px;
     height: 30px;
@@ -734,7 +845,6 @@ body{
     gap: 10px;
 }
 
-.fb img{
-    position: relative;
-    right: 200px;
+.output:hover{
+    cursor: pointer;
 }
