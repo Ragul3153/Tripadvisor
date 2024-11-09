@@ -110,21 +110,22 @@ body{
 .search-2{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .search-2 img{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 270px;  
-    top: 80px; 
+    left: 10px;  
+    top: 15px; 
 }
 
 .search-2 input{
     width:800px;
     padding: 20px;
     border-radius: 40px;
-    
+    padding-left: 50px;
 }
 
 .search-2 button{
@@ -137,8 +138,8 @@ body{
     padding-right: 20px;
     border: none;
     position: absolute;
-    right: 260px; 
-    top: 72px;   
+    right: 10px; 
+    top: 7px;   
 }
 
 .search-2 button:hover{
@@ -653,73 +654,87 @@ body{
     left: 170px;
 }
 
-.lastfoot{
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
+.one{
     background-color: rgb(232, 235, 238);
-
-}
-
-.lastfoot-1{
     display: flex;
-    gap: 10px
+    
 }
 
-.elep img {
-    width: 35px;
-    height: 35px;
-}
-
-.vat{
-    display: grid;
-
-}
-
-.ani-1{
-    width:200px
-}
-
-.ani-2{
-    display: flex;
-    gap: 10px;
-    width: 800px;
+.vvvv img{
+    width: 40px;
+    height: 40px;
     position: relative;
-    bottom: 10px;
+    left: 100px;
 }
-.sml{
-    font-size: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+
+.one-1{
+    display: flex;
+}
+
+.iiii {
+    display: flex;
+    position: relative;
+    left: 10px;
+    gap: 15px;
+    bottom: 20px;
+    font-size: 15px;
 }
 
 .how{
-    position: relative;
-    right: 530px;
-    top: 25px;
-}
-
-.cont{
     position: relative;
     right: 520px;
     top: 25px;
 }
 
-.he-1{
+.cont{
+    position: relative;
+    right: 515px;
+    top: 25px;
+}
+
+.three{
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+
+.hhhh{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.jjjj{
+    position: relative;
+    bottom: 18px;
+    right: 40px;
+    font-size: 15px;
+    width: 800px;
+}
+
+.two{
     display: flex;
     gap: 10px;
     position: relative;
-    right: 65px;
+    left: 60px;
 }
 
-.cat input{
-    border: 2px solid gray;
+.two-1 input{
+    border: solid gray;
+    border-radius: 5px;
     height: 20px;
-    border-radius: 7px;
 }
 
-.cat-1 input{
-    border: 2px solid gray;
-    height: 20px;
-    border-radius: 7px;
+.output img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    gap: 10px;
+}
+
+.fb img{
+    position: relative;
+    right: 200px;
 }
