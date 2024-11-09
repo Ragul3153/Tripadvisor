@@ -50,7 +50,7 @@ body{
 .navbar-3{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .navbar-3 img{
@@ -87,6 +87,10 @@ body{
     background-color: gray;
     border: transparent;
     cursor: pointer;
+}
+
+.menubar {
+    display: none;
 }
 
 .where{
@@ -875,72 +879,39 @@ body{
 
 /* Media Queries */
 
-@media screen and (max-width:800px){
-    
-    .navbar-2{
+@media screen and (max-width:900px) {
+
+    .navbar-2,.navbar-3{
         display: none;
+    }    
+
+    .menubar{
+        display: block;
     }
 
-    .where{
-        text-align: center;
-    }
-
-
-
-
-
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:600px) {
+
+    .menubar{
+        display: block;
+    }    
+
+
+
+
+
+
+
     
-    .navbar{
-        align-items: center;
-        justify-content: center;
-    }
 
 
-    .navbar-3{
-        display: none;
-    }
-
-    .where{
-        text-align: center;
-    }
-
-    /* .search-1{
-        display: grid;
-        gap: 10px;
-    } */
-
-    /* .search-2{
-        width: 200px;
-    } */
-
-    .box{
-        flex-basis: 2;
-    }
 
 
 
 
 }
-
-
-
-
 
 
 
