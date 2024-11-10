@@ -701,7 +701,7 @@ body{
     bottom: 100px; */
 }
 
-.bike{
+.bike {
     margin-left: 100px;
     margin-right: 100px;
     background-color: rgb(228, 232, 236);
@@ -712,31 +712,25 @@ body{
     padding: 2%;
 }
 
-.bikepic{
+.bikepic {
     width: 50%;
 }
 
-.bikepic img{
+.bikepic img {
     width: 100%;
     height: 550px;
-    /* margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px; */
-}   
+}
 
-.watch{
+.watch {
+    width: 50%;
     display: grid;
     height: 100%;
-    width: 50%;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    /* position: relative;
-    top: 190px;
-    left: 150px; */
 }
 
-.abcd{
+.abcd {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -744,59 +738,44 @@ body{
     height: 40px;
 }
 
-.abcd img{
+.abcd img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
 }
 
-/* .watch-1 h1{
-    margin-top: 5px;
-    margin-bottom: 3px;
-}
-
-.watch-2{
-    margin-top: 2px;
-} */
-
-.watch-1{
+.watch-1 {
     display: flex;
     justify-content: center;
 }
 
-.watch-2 p{
+.watch-2 p {
     width: 100%;
-    /* margin-top: 5px; */
     text-align: center;
 }
 
-.but{
+.but {
     display: flex;
     justify-content: center;
 }
 
-.but button{
-    /* font-size: large; */
+.but button {
     border-radius: 30px;
     padding: 10px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
     background-color: black;
     color: white;
-    /* position: relative; */
-    /* left: 90px; */
     border: transparent;
     width: 20%;
     height: 40%;
 }
 
-.but button:hover{
+.but button:hover {
     background-color: rgb(71, 71, 71);
     border: transparent;
     cursor: pointer;
 }
     
-last {
+.last {
     background-color: rgb(243, 233, 221);
     height: 100%;
     padding: 2%;
