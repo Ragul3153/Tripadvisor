@@ -289,10 +289,18 @@ body{
 }
 
 .total img{
-    width: 261px;
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 20%;
     height: 270px;
     border-radius: 10px;
 }
+
+.food1, .food2, .food3, .food4{
+    width: 20%;
+
+} 
+
 
 .food1 h2,.food2 h2,.food3 h2,.food4 h2{
     position: relative;
@@ -329,8 +337,8 @@ body{
     padding: 10px;
     border-radius: 40px;
     position: relative;
-    top: 100px;
-    right: 10px;
+    top: 40%;
+    right: 70%;
 }
 
 .fa-arrow-right:hover{
@@ -341,6 +349,7 @@ body{
 
 .travel{
     margin-left: 100px;
+    margin-top: 10px;
 }
 
 .travel h2{
@@ -353,22 +362,31 @@ body{
 
 .creators{
     display: flex;
-    margin-right: 65px;
+    flex-wrap: wrap;
+    /* margin-right: 65px; */
     margin-left: 100px;
-    gap: 20px;
-    justify-content: center;
-}   
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}  
 
 .creators-1 p{
     text-align: center;
+    padding-top: 10px;
+}
+
+.creators1 i, .creators-2 i, .creators-3 i{
+    padding-top: 10px;
 }
 
 .creators-2 p{
     text-align: center;
+    padding-top: 10px;
 }
 
 .creators-3 p{
     text-align: center;
+    padding-top: 10px;
 }
 
 .fa-heart{
@@ -423,6 +441,7 @@ body{
 }
 
 .experience{
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -435,15 +454,25 @@ body{
     margin-top: 8px;
 }
 
-.sector{
+.expimg{
+    padding-top: 10px;
     display: flex;
+    justify-content: space-between;
     margin-left: 100px;
-    margin-right: 100px;
     gap: 15px;
 }
 
-.sector img {
-    width: 275px;
+/* .sector{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 15px;
+} */
+
+.expimg img {
+    width: 100%;
     height: 270px;
     border-radius: 10px;
 }
@@ -454,9 +483,20 @@ body{
     padding: 10px;
     border-radius: 40px;
     position: relative;
-    top: 110px;
-    right: 30px;
+    top: 40%;
+    right: 70%;
 }
+
+.expimg-1, .expimg-2, .expimg-3, .expimg-4{
+    width: 20%;
+    flex-grow: 1;
+    flex-basis: 20%;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+}
+
+
 
 .newsel{
     display: flex;
@@ -512,6 +552,7 @@ body{
 .more{
     width: 100%;
     height: 500px;
+    padding-top: 50px;
     background-color: rgb(235, 235, 235)
 }
 
@@ -523,17 +564,30 @@ body{
 
 .moreimg{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 100px;
-    margin-right: 100px;
-    justify-content: center;
+    /* margin-right: 100px; */
+    justify-content: space-between;
     margin-top: 80px;
     gap: 20px;
 }
 
 .moreimg img{
-    width: 370px;
+    width: 100%;
     height: 250px;
     border-radius: 10px;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.more2, .more3, .more3{
+    /* width: 370px; */
+    flex-grow: 1;
+    flex-basis: 20%;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+
 }
 
 .arrow-3 i{
@@ -542,8 +596,9 @@ body{
     padding: 10px;
     border-radius: 40px;
     position: relative;
-    left: 1230px;
-    bottom: 80px;
+    right: 70%;
+    top: 40%;
+    /* bottom: 170px; */
 
 }
 
@@ -565,6 +620,10 @@ body{
     text-align: center;
 }
 
+.desti{
+    padding-top: 50px;
+}
+
 .desti-1{
     margin-left: 100px;
     margin-right: 100px;
@@ -581,27 +640,35 @@ body{
 
 .destipic{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     margin-left: 100px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     justify-content: space-between;
+    padding-top: 10px;
+}
+
+.ifet-1, .ifet-2, .ifet-3, .ifet-4 {
+    width: 20%;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 
 .destipic img{
-    width: 275px;
+    width: 100%;
     height: 270px;
     border-radius: 10px;
 }
 
-.ifet-1 h2{
+.ifet-1 h2, .ifet-2 h2, .ifet-3 h2, .ifet-4 h2{
     width: 275px;
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
     color: white;
     
 }
 
-.ifet-2 h2{
+/* .ifet-2, h2{
     width: 275px;
     position: relative;
     bottom: 70px;
@@ -620,7 +687,7 @@ body{
     position: relative;
     bottom: 70px;
     color: white;
-}
+} */
 
 .arrow-4 i{
     border: 1px solid black;
@@ -628,8 +695,10 @@ body{
     padding: 10px;
     border-radius: 40px;
     position: relative;
-    left: 1230px;
-    bottom: 230px;
+    top: 40%;
+    right: 70%;
+    /* left: 1400px;
+    bottom: 100px; */
 }
 
 .bike{
@@ -906,36 +975,119 @@ body{
 
 @media screen and (max-width:900px) {
 
-    .navbar-2,.navbar-3{
+    .navbar-2{
+        display:none;
+    }
+
+    .search-1{
+        display: none;
+    }
+
+    .search-2{
+        width: 700px;
+    }
+    
+    .first img {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .treat[
+        width: 700px;
+    ]
+
+    .arrow {
+        display: none;
+    }
+
+    .more2, .more3,{
+        flex-basis: 60%;
+    }
+
+    .more2, .more3, .more4{
+        flex-basis: 40%;
+    }
+
+    .expimg-1, .expimg-2{
+        flex-basis: 60%;
+    }
+
+    .expimg-3, .expimg-4{
+        display: none;
+    }
+
+    .food1, .food2{
+        flex-basis: 40%;
+    }
+
+    .food3. .food4{
+        display: none;
+    }
+
+    .creators-1, .creators-2{
+        flex-basis: 40%;
+    }
+
+    .creators-3{
+        display: none;
+    }
+
+    .ifet-1, .ifet-2{
+        flex-basis: 40%;
+    }
+
+    .ifet-3, .ifet-4{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar-3{
         display: none;
     }    
+    
+    .where{
+        text-align: center;
+    }
 
     .menubar{
         display: block;
     }
 
+    .search-2{
+        width: 400px;
+    }
     
-}
+    .first img{
+        width: 400px;
+        flex-wrap: wrap;
+    }
 
-@media screen and (max-width:600px) {
+    .box{
+     display: none;
+     
+    }
+
+    .creators{
+        width: 200px;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    /* .more4{
+        display: none;
+    } */
 
     
-    .menubar{
-        display: block;
-    }    
-
-
-
-
-
-
-
-    
-
-
-
-
-
 
 }
 
