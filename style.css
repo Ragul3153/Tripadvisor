@@ -98,106 +98,105 @@ body{
     display: none;
 }
 
-.where{
+.where {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     font-size: 25px;
     font-weight: bolder;
-    padding-top: 50px;
 }
 
-.search{
-    display:grid;
+.search {
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
     justify-content: center;
+    align-items: center;
     gap: 15px;
-    padding-top: 50px;
-    /* position: relative; */
 }
 
-.search-1{
+.search-1 {
     display: flex;
-    gap: 50px;
-    /* width: 100%; */
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
 }
 
-.lll:hover{
-    visibility: visible;
+.lll:hover {
     cursor: pointer;
+    visibility: visible;
 }
-    
-.lll{
+
+.lll {
     border-bottom: 2px solid;
     visibility: hidden;
 }
 
-.qqq{
+.qqq {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
     visibility: visible;
-    margin-bottom:5px;
+    margin-bottom: 10px;
 }
 
-.search-2{
+.search-2 {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    position: relative;
-    top: 10px;
-}
-
-.search-2 img{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 10px;  
-    top: 15px; 
-}
-
-.search-2 input{
-    width:800px;
-    padding: 20px;
+    align-items: center;
     border-radius: 40px;
-    padding-left: 50px;
+    padding-left: 2%;
+    padding-right: 1%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-2 input {
+    width: 90%;
+    padding: 20px;
     border: transparent;
 }
 
-.search-2 button{
+.search-2 input:focus {
+    outline: none;
+}
+
+.search-2 button {
     height: 45px;
     font-size: medium;
     padding: 10px;
     background-color: rgb(20, 218, 158);
     border: transparent;
-    border-radius:30px;
+    border-radius: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    position: absolute;
-    right: 5px; 
-    top: 5px;   
 }
 
-.search-2 button:hover{
+.search-2 button:hover {
     background-color: rgb(100, 247, 247);
     cursor: pointer;
 }
 
-.image{
+.image {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-}
-
-.first img{
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
-    height: 455px;
     margin-top: 60px;
-    /* position: relative; */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.box{
+.first img {
+    height: 455px;
+    width: 100%;
+    position: relative;
+}
+
+.box {
     border: 1px solid transparent;
     width: 450px;
     position: absolute;
@@ -207,30 +206,25 @@ body{
     gap: 10px;
 }
 
-.box-1{
+.box-1 {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.box-1 p{
+.box-1 p {
     color: white;
-    /* margin-bottom: 2px; */
 }
 
-.box-3 h1{
+.box-3 h1 {
     color: white;
-    /* margin-bottom: 2px; */
-    /* margin-top: 3px; */
-    
 }
 
-.box-4 h2{
+.box-4 h2 {
     color: white;
-    /* margin-top: 2px; */
 }
 
-.box-2 p{
+.box-2 p {
     background-color: white;
     color: black;
     padding: 5px;
@@ -238,7 +232,7 @@ body{
     font-size: small;
 }
 
-.box-5{
+.box-5 {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -248,23 +242,20 @@ body{
     justify-content: center;
     border-radius: 30px;
     padding: 10px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
 }
 
-.box-5 img{
+.box-5 img {
     width: 20px;
     height: 20px;
 }
 
-.box-5:hover{
+.box-5:hover {
     background-color: rgb(197, 158, 235);
     cursor: pointer;
 }
 
 .treat{
     margin-left: 100px; 
-    /* margin-right: 100px;  */
     display: grid;
     
     margin-top: 100px;
@@ -298,9 +289,7 @@ body{
 
 .food1, .food2, .food3, .food4{
     width: 20%;
-
 } 
-
 
 .food1 h2,.food2 h2,.food3 h2,.food4 h2{
     position: relative;
@@ -309,27 +298,6 @@ body{
     color: white;
     font-weight: 900;
 }
-/* 
-.food2 h2{
-    position: relative;
-    bottom: 70px;
-    left: 20px;
-    font-style: bolder;
-}
-
-.food3 h2{
-    position: relative;
-    bottom: 70px;
-    left: 20px;
-    font-style: bolder;
-}
-
-.food4 h2{
-    position: relative;
-    bottom: 70px;
-    left: 20px;
-    font-style: bolder;
-} */
 
 .arrow i{
     border: 1px solid black;
@@ -363,7 +331,6 @@ body{
 .creators{
     display: flex;
     flex-wrap: wrap;
-    /* margin-right: 65px; */
     margin-left: 100px;
     gap: 10px;
     justify-content: space-between;
