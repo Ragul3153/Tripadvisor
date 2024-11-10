@@ -706,23 +706,34 @@ body{
     margin-right: 100px;
     background-color: rgb(228, 232, 236);
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 20px;
+    padding: 2%;
+}
+
+.bikepic{
+    width: 50%;
 }
 
 .bikepic img{
-    width: 500px;
+    width: 100%;
     height: 550px;
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 25px; */
 }   
 
 .watch{
     display: grid;
-    height: 20px;
-    position: relative;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* position: relative;
     top: 190px;
-    left: 150px;
+    left: 150px; */
 }
 
 .abcd{
@@ -739,33 +750,44 @@ body{
     border-radius: 50%;
 }
 
-.watch-1 h1{
+/* .watch-1 h1{
     margin-top: 5px;
     margin-bottom: 3px;
 }
 
 .watch-2{
     margin-top: 2px;
+} */
+
+.watch-1{
+    display: flex;
+    justify-content: center;
 }
 
 .watch-2 p{
-    width: 320px;
-    margin-top: 5px;
+    width: 100%;
+    /* margin-top: 5px; */
     text-align: center;
 }
 
+.but{
+    display: flex;
+    justify-content: center;
+}
+
 .but button{
-    font-size: large;
+    /* font-size: large; */
     border-radius: 30px;
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     background-color: black;
     color: white;
-    position: relative;
-    left: 90px;
+    /* position: relative; */
+    /* left: 90px; */
     border: transparent;
-    width: 150px;
+    width: 20%;
+    height: 40%;
 }
 
 .but button:hover{
@@ -777,50 +799,68 @@ body{
 .last{
     background-color: rgb(243, 233, 221);
     width: 100%;
-    height: 600px;
+    height: 100%;
     margin-top: 90px;
-    position: relative;
+    padding: 2%;
+    /* position: relative; */
 }
 
 .gggg{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
+    gap: 20px;
+}
+
+.ffff{
+    width: 50%;
+    display: grid;
+    align-items: center;
+    }
+
+.grid{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+.menpic{
+    width: 50%;
 }
 
 .menpic img{
-    width: 600px;
+    width: 100%;
     height: 600px;
 }
 
 .ffff-1 img{
-    position: absolute;
-    top: 100px;
+    width: 10%;
+    /* position: absolute;
+    top: 100px; */
 }
 
 .ffff-2 h1{
     font-size: 40px;
     font-weight: bolder;
-    width: 400px;
-    position: absolute;
-    top:160px;
+    width: 80%;
+    /* position: absolute;
+    top:160px; */
 }
 
 .ffff-3 p{
-    position: absolute;
-    top: 315px;
-    width: 400px;
+    /* position: absolute;
+    top: 315px; */
+    width: 70%;
     font-size: 20px;
 }
 
 .ffff-4 button{
-    position: absolute;
-    top: 400px;
     padding: 10px;
     background-color: black;
     color: white;
     border-radius: 20px;
+    width: 30%;
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -833,143 +873,197 @@ body{
     cursor: pointer;
 }
 
-.footer{
+footer {
     margin-top: 100px;
     width: 100%;
-    height: 320px;
+    height: 100%;
     background-color: rgb(232, 235, 238);
 }
 
-.lc{
+.lc {
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
+    justify-content: space-between;
     gap: 70px;
-    position: relative;
-    top: 40px;
+    padding-top: 40px;
+    /* position: relative;
+  top: 40px; */
     font-size: 15px;
 }
 
-.lc-1 p:hover{
+.lc-0 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lc-1,
+.lc-2,
+.lc-3,
+.lc-3-0,
+.lc-3-1 {
+    display: grid;
+    gap: 10px;
+    font-size: small;
+}
+
+.lc-1 p:hover,
+.lc-2 p:hover,
+.lc-3 p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.lc-2 p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.lc-3 p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.lc-3 h3{
+.lc-3 h3 {
     font-weight: lighter;
 }
 
-.sites p{
-    position: relative;
-    left: 170px;
+.sites {
+    margin-bottom: 10%;
 }
 
-.one{
+.sites p {
+    /* position: relative;
+  left: 170px; */
+    font-size: small;
+}
+
+.one {
+    padding-top: 5%;
+    padding-left: 100px;
     background-color: rgb(232, 235, 238);
     display: flex;
-    
+    padding-bottom: 40px;
+    /* width: 100%; */
+    gap: 20px;
 }
 
-.vvvv img{
+.one-1 {
+    /* margin-left: 100px; */
+    display: grid;
+    width: 60%;
+}
+
+.vvvv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* width: 100%; */
+    /* justify-content: space-around; */
+}
+
+.vvvv img {
     width: 40px;
     height: 40px;
-    position: relative;
-    left: 100px;
+    /* position: relative;
+  left: 100px; */
     border: 1px white;
     border-radius: 40%;
 }
 
-.one-1{
-    display: flex;
-}
-
 .iiii {
     display: flex;
-    position: relative;
-    left: 10px;
+    /* position: relative;
+  left: 10px; */
     gap: 15px;
-    bottom: 20px;
+    /* bottom: 20px; */
     font-size: 15px;
     text-decoration: underline;
 }
 
-.how{
-    position: relative;
-    right: 520px;
-    top: 25px;
+.how {
+    /* position: relative;
+  right: 520px; */
+    /* top: 25px; */
 }
 
-.iiii p:hover{
+.iiii {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 60%; */
+}
+
+.iiii p:hover {
     cursor: pointer;
 }
 
-.cont{
-    position: relative;
-    right: 515px;
-    top: 25px;
+.cont {
+    /* position: relative;
+  right: 515px;
+  top: 25px; */
 }
 
-.three{
-    position: relative;
-    left: 100px;
-    bottom: 10px;
+.three {
+    /* position: relative;
+  left: 100px; */
+    /* bottom: 10px; */
+    /* width: 100%; */
+    display: grid;
+    gap: 5px;
 }
 
-.hhhh{
+.hhhh {
     font-size: 10px;
-    position: relative;
-    left: 10px;
+    /* width: 25%; */
+    /* position: relative;
+  left: 10px; */
 }
 
-.jjjj{
-    position: relative;
-    bottom: 15px;
-    right: 40px;
+.jjjj {
+    /* position: relative;
+  bottom: 15px;
+  right: 40px; */
     font-size: 13px;
-    width: 800px;
+    /* width: 100%; */
 }
 
-.two{
+.two {
+    display: grid;
+    gap: 10px;
+    width: 40%;
+}
+
+.two-dropdown {
     display: flex;
     gap: 10px;
-    position: relative;
-    left: 60px;
+    /* position: relative;
+  left: 60px; */
 }
 
-.two-1 input{
+.two-1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fa-indian-rupee-sign {
+    position: absolute;
+    left: 4px;
+}
+
+.two-1 input {
     border: solid gray;
     border-radius: 5px;
     height: 20px;
+    width: 90%;
+    padding-left: 15px;
 }
 
-.two-1 input:hover{
+.two-1 input:hover {
     cursor: pointer;
     background-color: transparent;
 }
 
-.output img{
+.output img {
     width: 30px;
     height: 30px;
-    position: relative;
-    top: 50px;
-    right: 100px;
     gap: 10px;
 }
 
-.output:hover{
+.output:hover {
     cursor: pointer;
 }
-
 
 /* Media Queries */
 
@@ -1042,6 +1136,42 @@ body{
 
     .ifet-3, .ifet-4{
         display: none;
+    }
+
+    .bike{
+        width: 70%;
+        height: 100%;
+    }
+
+    .bikepic img{
+        height: 100%;
+    }
+
+    .watch{
+        font-size: 70%;
+        gap: 5px;
+    }
+
+    .watch-1 h1{
+        font-size: 160%;
+    }
+
+    .but button{
+        width: 50%;
+
+    }
+
+    .ffff-2 h1, .ffff-3 p{
+        font-size: 100%;
+    }
+
+    .ffff-4 button{
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .menpic img{
+        height: 90%;
     }
 
 
