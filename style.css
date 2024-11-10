@@ -254,52 +254,47 @@ body{
     cursor: pointer;
 }
 
-.treat{
-    margin-left: 100px; 
-    display: grid;
-    
-    margin-top: 100px;
-}
-
-.treat h2{
-    margin-bottom: 5px;
-}
-
-.treat p{
+.treat p {
     margin-top: 8px;
 }
 
 .total {
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 10px;
+    margin-left: 100px;
     display: flex;
-    gap: 20px;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
-.total img{
+.total img {
     width: 100%;
-    flex-grow: 1;
-    flex-basis: 20%;
     height: 270px;
     border-radius: 10px;
 }
 
-.food1, .food2, .food3, .food4{
+.food1,
+.food2,
+.food3,
+.food4 {
     width: 20%;
-} 
-
-.food1 h2,.food2 h2,.food3 h2,.food4 h2{
-    position: relative;
-    bottom: 50px;
-    left: 20px;
-    color: white;
-    font-weight: 900;
+    flex-grow: 1;
+    flex-basis: 20%;
 }
 
-.arrow i{
+.food1 h2,
+.food2 h2,
+.food3 h2,
+.food4 h2 {
+    position: relative;
+    bottom: 50px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.arrow i {
     border: 1px solid black;
     background-color: white;
     padding: 10px;
@@ -309,7 +304,7 @@ body{
     right: 70%;
 }
 
-.fa-arrow-right:hover{
+.fa-arrow-right:hover {
     background-color: black;
     color: white;
     cursor: pointer;
