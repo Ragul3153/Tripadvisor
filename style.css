@@ -254,6 +254,16 @@ body{
     cursor: pointer;
 }
 
+.treat {
+    margin-left: 100px;
+    display: grid;
+    margin-top: 100px;
+}
+
+.treat h2 {
+    margin-bottom: 5px;
+}
+
 .treat p {
     margin-top: 8px;
 }
@@ -496,59 +506,86 @@ body{
     text-align: center;
 }
 
-.desti{
-    padding-top: 50px;
+.desti {
+  padding-top: 50px;
 }
 
-.desti-1{
-    margin-left: 100px;
-    margin-right: 100px;
+.desti-1 {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.desti-1 h2{
-    margin-bottom: 2px;
+.desti-1 h2 {
+  margin-bottom: 2px;
 }
 
-.desti-1 p{
-    margin-top: 10px;
+.desti-1 p {
+  margin-top: 10px;
 }
 
-.destipic{
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    justify-content: space-between;
-    padding-top: 10px;
+.destipic {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  justify-content: space-between;
+  padding-top: 10px;
+  gap: 20px;
 }
 
-.ifet-1, .ifet-2, .ifet-3, .ifet-4 {
-    width: 20%;
-    flex-grow: 1;
-    flex-basis: 20%;
+.ifet-1,
+.ifet-2,
+.ifet-3,
+.ifet-4 {
+  width: 20%;
+  flex-grow: 1;
+  flex-basis: 20%;
 }
 
-.destipic img{
-    width: 100%;
-    height: 270px;
-    border-radius: 10px;
+.destipic img {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
 }
 
-.ifet-1 h2, .ifet-2 h2, .ifet-3 h2, .ifet-4 h2{
-    width: 275px;
-    position: relative;
-    bottom: 50px;
-    color: white;
-    
+.ifet-1 h2 {
+  width: 275px;
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+}
+.ifet-2 h2 {
+  width: 275px;
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  color: white;
 }
 
-.arrow-4 i{
-    border: 1px solid black;
-    background-color: white;
-    padding: 10px;
-    border-radius: 40px;
-    position: relative;
-    top: 40%;
-    right: 70%;
+.ifet-3 h2 {
+  width: 275px;
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+}
+
+.ifet-4 h2 {
+  width: 275px;
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+}
+
+.arrow-4 i {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40px;
+  position: relative;
+  right: 70%;
+  top: 40%;
 }
 
 .bike {
