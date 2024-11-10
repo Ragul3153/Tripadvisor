@@ -283,6 +283,11 @@ body{
     border-radius: 10px;
 }
 
+.total img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .food1,
 .food2,
 .food3,
@@ -420,6 +425,11 @@ body{
     border-radius: 10px;
 }
 
+.expimg img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .expimg-1,
 .expimg-2,
 .expimg-3,
@@ -460,6 +470,11 @@ body{
     justify-content: space-between;
     margin-top: 80px;
     gap: 20px;
+}
+
+.moreimg:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .more2,
@@ -530,6 +545,11 @@ body{
   justify-content: space-between;
   padding-top: 10px;
   gap: 20px;
+}
+
+.destipic:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .ifet-1,
@@ -887,158 +907,168 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
 
-    .navbar-2{
-        display:none;
-    }
-
-    .search-1{
+    .navbar-2,
+    .navbar-3 {
         display: none;
     }
 
-    .search-2{
-        width: 700px;
-    }
-    
-    .first img {
-        width: 700px;
-        flex-wrap: wrap;
+    .menubar {
+        display: block;
     }
 
-    .box{
+    .where h1 {
+        font-size: xx-large;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search-1 {
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 30px;
+    }
+
+    .search-2 {
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 70%;
+    }
+
+    .box {
+        top: 500px;
+        left: 150px;
+        width: 40%;
+    }
+
+    .more2,
+    .more3 {
+        flex-basis: 40%;
+    }
+
+    .more4 {
         display: none;
     }
 
-    .treat[
-        width: 700px;
-    ]
-
-    .arrow {
-        display: none;
-    }
-
-    .more2, .more3,{
+    .expimg-1,
+    .expimg-2 {
         flex-basis: 60%;
     }
 
-    .more2, .more3, .more4{
-        flex-basis: 40%;
-    }
-
-    .expimg-1, .expimg-2{
-        flex-basis: 60%;
-    }
-
-    .expimg-3, .expimg-4{
+    .expimg-3,
+    .expimg-4 {
         display: none;
     }
 
-    .food1, .food2{
+    .food1,
+    .food2 {
         flex-basis: 40%;
     }
 
-    .food3. .food4{
+    .food3,
+    .food4 {
         display: none;
     }
 
-    .creators-1, .creators-2{
+    .creators-1,
+    .creators-2 {
         flex-basis: 40%;
     }
 
-    .creators-3{
+    .creators-3 {
         display: none;
     }
 
-    .ifet-1, .ifet-2{
+    .ifet-1,
+    .ifet-2 {
         flex-basis: 40%;
     }
 
-    .ifet-3, .ifet-4{
+    .ifet-3,
+    .ifet-4 {
         display: none;
     }
 
-    .bike{
+    .bike {
         width: 70%;
         height: 100%;
     }
 
-    .bikepic img{
+    .bikepic img {
         height: 100%;
     }
 
-    .watch{
+    .watch {
         font-size: 70%;
         gap: 5px;
     }
 
-    .watch-1 h1{
+    .watch-1 h1 {
         font-size: 160%;
     }
 
-    .but button{
+    .but button {
         width: 50%;
-
     }
 
-    .ffff-2 h1, .ffff-3 p{
+    .ffff-2 h1,
+    .ffff-3 p {
         font-size: 100%;
     }
 
-    .ffff-4 button{
+    .ffff-4 button {
         width: 60%;
         font-size: 10px;
     }
 
-    .menpic img{
+    .menpic img {
         height: 90%;
     }
 
-
-}
-
-@media screen and (max-width:600px) {
-
-    .navbar-3{
+    .lc-0 p {
         display: none;
-    }    
-    
-    .where{
-        text-align: center;
     }
 
-    .menubar{
+    .lc {
+        display: grid;
+        gap: 20px;
+    }
+
+    .lc-0 {
+        display: grid;
+        gap: 20px;
+    }
+
+    .lc-3 {
+        gap: 20px;
+    }
+
+    .one {
+        display: grid;
+    }
+
+    .two-dropdown {
+        display: grid;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+
+    .menubar {
         display: block;
     }
 
-    .search-2{
-        width: 400px;
+    .more2,
+    .more3 {
+        flex-basis: 60%;
     }
-    
-    .first img{
-        width: 400px;
-        flex-wrap: wrap;
-    }
-
-    .box{
-     display: none;
-     
-    }
-
-    .creators{
-        width: 200px;
-    }
-
-    .arrow{
-        display: none;
-    }
-
-    /* .more4{
-        display: none;
-    } */
-
-    
-
 }
 
 
